@@ -22,15 +22,15 @@ exports.show =  async (id) => {
 
 exports.update =  async (file_id, content, id) => {
     const query = `
-        UPDATE user 
+        UPDATE feed 
         SET file_id = ?,
-            content = ?,
+            content = ?
         WHERE id = ?
         `;
     return await pool(query, [file_id, content, id]);
 }
 
 exports.qdelete =  async (id) => {
-    const query = `DELETE feed WHERE id = ?`
+    const query = `DELETE FROM feed WHERE id = ?`
     return await pool(query, [id]);
 }

@@ -36,7 +36,7 @@ exports.update = async (ctx, next) => {
 
 /** 피드 삭제 */
 exports.delete = async (ctx, next) => {
-    let { id } = ctx.params;
+    let { id } = ctx.request.body;
     let result = await qdelete(id);
     ctx.body = `${id} 피드 수정`;
 }
