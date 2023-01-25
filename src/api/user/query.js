@@ -26,3 +26,21 @@ exports.login = async (email, password) => {
     let result = await pool(query, [email, password]);
     return (result.length <0) ? null : result[0];
 }
+
+exports.checkDuplicate = async (email) => {
+    const query = `SELECT * FROM user WHERE email = ?`;
+    let result = await pool(query, [email]);
+    /**
+     * 1 은 중복 있음
+     * 0 은 중복 없음
+     * -1 은 에러
+     */
+    if (result.length) {
+        return 1;
+    } else if (result.length == 0) {
+        return 0;
+    } else {
+        return -1;
+    }
+    // return (result.length == 0) ? 1 : 0;
+}
