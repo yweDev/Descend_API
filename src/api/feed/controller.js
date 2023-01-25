@@ -6,7 +6,10 @@ exports.index =  (ctx, next)=> {
 
 /** 새 피드 작성 처리 */
 exports.store = (ctx, next) => {
-    let body = ctx.request.body;
+    let bodyString = ctx.request.body;
+    //복호화
+    let body = decripString(bodyString);
+
     ctx.body = body;
 };
 
@@ -18,8 +21,11 @@ exports.show =  (ctx, next) => {
 
 /** 피드 수정 */
 exports.update = (ctx, next) => {
-    let id = ctx.params.id;
-    ctx.body = `${id} 피드 수정`;
+    let bodyString = ctx.request.body
+    // 복호화
+    let body = decripString(bodyString);
+    
+    ctx.body = body;
 };
 
 /** 피드 삭제 */

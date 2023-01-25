@@ -4,7 +4,7 @@ exports.home = (ctx, next) => {
 }
 
 /** 약관, 개인정보처리방침 등 정적 페이지 */
-exports.page = (ctx, next) => {
+exports.page = async (ctx, next) => {
     let page = ctx.params.page;
     let content;
     switch(page) {
@@ -15,5 +15,5 @@ exports.page = (ctx, next) => {
             content = "개인정보 처리방침";
             break;
     }
-    ctx.body = content;
+    await ctx.render('index', {content});
 }
