@@ -18,12 +18,14 @@ exports.register = async (ctx, next) => {
     let isDuplicated = await checkDuplicate(email);
     
     if (isDuplicated === 1) {
+        // http response 주는 방법
+        ctx.response.status = 400; // Bad Request
         ctx.body = `Email Duplicated`;
         
     } else if(isDuplicated === 0) {
         await register(email, result.toString('base64'), name);
         let token = await generteToken({name});
-        ctx.statusCode = 201; // Created
+        ctx.response.status = 201; // Created
         ctx.body = token;
     } else {
         ctx.body = {result: "fail"};
