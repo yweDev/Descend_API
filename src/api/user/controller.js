@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
-const { register, checkDuplicate } = require('./query');
-
+const {register, login, checkDuplicate } = require('./query');
+const {pool} = require('../../data');
+const pbkdf2 = require('pbkdf2');
 const crypto = require('crypto');
 const { STATUS_CODES } = require('http');
 
@@ -16,17 +17,18 @@ exports.register = async (ctx, next) => {
     let result = crypto.pbkdf2Sync(password, process.env.APP_KEY, 50, 100, 'sha512')
 
     let isDuplicated = await checkDuplicate(email);
-    
+
     if (isDuplicated === 1) {
         // http response 주는 방법
         ctx.response.status = 400; // Bad Request
         ctx.body = `Email Duplicated`;
-        
+
     } else if(isDuplicated === 0) {
         await register(email, result.toString('base64'), name);
         let token = await generteToken({name});
         ctx.response.status = 201; // Created
         ctx.body = token;
+
     } else {
         ctx.body = {result: "fail"};
     }
@@ -43,15 +45,23 @@ exports.login = async (ctx, next) => {
         ctx.body = {result: "fail"};
     } else {
         let token = await generteToken({name: item.name});
-        ctx.body = token;
-    }
 
+        const query = `SELECT * FROM user WHERE
+        email = ? AND password = ?`;
+        let output = await pool(query, [email, item.password]);
+        console.log(output);
+        ctx.body ={
+            name : output[0].name,
+            token: token,
+            id : output[0].id
+        };
+    }
 }
 
 /**
  * jwt 토큰 생성
  * @param {object} payload 추가적으로 저장할 payload
- * @returns {string} jwt 토큰string
+ * @returns {string} jwt 토큰 string
  */
 let generteToken = (payload) => {
     return new Promise((resolve, reject) => {
@@ -61,3 +71,5 @@ let generteToken = (payload) => {
         })
     })
 }
+
+//이름, 아이디, 토큰
