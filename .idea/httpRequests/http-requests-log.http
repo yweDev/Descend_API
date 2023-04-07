@@ -1,0 +1,597 @@
+GET http://192.168.205.84:3000/api/feed
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-26T152912.500.txt
+
+###
+
+POST http://192.168.205.84:3000/api/user/login
+Content-Type: application/json
+Content-Length: 52
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "12@naver.com",
+  "password" : "1111"
+}
+
+<> 2023-01-26T152832.200.json
+
+###
+
+POST http://192.168.205.84:3000/api/user/login
+Content-Type: application/json
+Content-Length: 52
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "12@naver.com",
+  "password" : "1111"
+}
+
+<> 2023-01-26T152757.500.txt
+
+###
+
+POST http://192.168.205.84:3000/api/user/login
+Content-Type: application/json
+Content-Length: 52
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "12@naver.com",
+  "password" : "1111"
+}
+
+<> 2023-01-26T152746.500.txt
+
+###
+
+POST http://192.168.205.84:3000/api/user/register
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "12@naver.com",
+  "name": "하이용",
+  "password" : "1111"
+}
+
+<> 2023-01-26T152721.201.txt
+
+###
+
+POST http://localhost:3000/api/user/register
+Content-Type: application/json
+Content-Length: 74
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "12@naver.com",
+  "nick": "하이용",
+  "password" : "1111"
+}
+
+<> 2023-01-26T152540.500.txt
+
+###
+
+POST http://localhost:3000/api/user/register
+Content-Type: application/json
+Content-Length: 74
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "12@naver.com",
+  "nick": "하이용",
+  "password" : "1111"
+}
+
+<> 2023-01-26T152537.500.txt
+
+###
+
+POST http://localhost:3000/user/register
+Content-Type: application/json
+Content-Length: 74
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "12@naver.com",
+  "nick": "하이용",
+  "password" : "1111"
+}
+
+<> 2023-01-26T152445.405.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T130137.200.json
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T130104.200.json
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T130035.500.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T130006.200.json
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T125957.404.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T125916.404.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T125830.404.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T125722.404.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T125629.404.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "행복"
+}
+
+<> 2023-01-26T125622.404.txt
+
+###
+
+POST http://localhost:3000/user/register
+Content-Type: application/json
+Content-Length: 74
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "12@naver.com",
+  "nick": "하이용",
+  "password" : "1111"
+}
+
+<> 2023-01-26T125611.405.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "행복"
+}
+
+<> 2023-01-26T125455.404.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "행복"
+}
+
+<> 2023-01-26T125429.200.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "행복"
+}
+
+<> 2023-01-26T125422.200.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "행복"
+}
+
+<> 2023-01-26T125337.200.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T125308.200.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T125209.404.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T125150.404.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T125134.404.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T125104.500.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T124806.500.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T124557.500.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T124537.500.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T124504.500.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T124323.500.txt
+
+###
+
+POST http://localhost:3000/user/register
+Content-Type: application/json
+Content-Length: 74
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "12@naver.com",
+  "nick": "하이용",
+  "password" : "1111"
+}
+
+<> 2023-01-26T124317.405.txt
+
+###
+
+POST http://localhost:3000/user/register
+Content-Type: application/json
+Content-Length: 74
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "12@naver.com",
+  "nick": "하이용",
+  "password" : "1111"
+}
+
+<> 2023-01-26T124308.405.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T124237.500.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T123939.500.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치"
+}
+
+<> 2023-01-26T123931.500.txt
+
+###
+
+POST http://localhost:3000/api/sub
+Content-Type: application/json
+Content-Length: 23
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "가치",
+}
+
+<> 2023-01-26T123915.400.txt
+
+###
+

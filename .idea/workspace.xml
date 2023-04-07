@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="422b203d-57fd-43d6-93b1-8d2744570076" name="Changes" comment="기능추가 : 검색 기능 구현&#10;&#10;주요내용&#10;과목명을 토대로 검색 기능 추가">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/sub/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/sub/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/user/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/user/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/ywe" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5d1ae6db-caf2-4719-a6b2-5f9322ece555" />
+        <option name="url" value="https://github.com/cji123/FeedAPI.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Kosududim0HywCPalFIFFmdehv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RESTKit.sync.cert.Ide&quot;: &quot;true&quot;,
+    &quot;RESTKit.sync.env.Ide&quot;: &quot;true&quot;,
+    &quot;RESTKit.sync.requestConfig.Ide&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jeongdaham/Documents/GitHub/FeedAPI/src/api/sub&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/api/sub" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="HTTP Request.scratch | register API 테스트#1">
+    <configuration name="scratch | Login API 테스트#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" index="3" requestIdentifier="Login API 테스트#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch | Login API 테스트#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" index="4" requestIdentifier="Login API 테스트#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch | Login API 테스트#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" index="5" requestIdentifier="Login API 테스트#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch | register API 테스트#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" requestIdentifier="register API 테스트#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.scratch | register API 테스트#1" />
+        <item itemvalue="HTTP Request.scratch | Login API 테스트#2" />
+        <item itemvalue="HTTP Request.scratch | Login API 테스트#4" />
+        <item itemvalue="HTTP Request.scratch | Login API 테스트#3" />
+        <item itemvalue="HTTP Request.scratch | Login API 테스트#2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="422b203d-57fd-43d6-93b1-8d2744570076" name="Changes" comment="" />
+      <created>1674652493686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674652493686</updated>
+      <workItem from="1674652494751" duration="5778000" />
+      <workItem from="1674700435902" duration="9515000" />
+      <workItem from="1674713094895" duration="9489000" />
+    </task>
+    <task id="LOCAL-00001" summary="기능추가 : 검색 기능 구현&#10;&#10;주요내용&#10;과목명을 토대로 검색 기능 추가">
+      <created>1674711948461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674711948461</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/feature/ywe" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="기능추가 : 검색 기능 구현&#10;&#10;주요내용&#10;과목명을 토대로 검색 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="기능추가 : 검색 기능 구현&#10;&#10;주요내용&#10;과목명을 토대로 검색 기능 추가" />
+  </component>
+</project>
