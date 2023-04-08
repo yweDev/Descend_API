@@ -1,7 +1,6 @@
 const jwt = require('jsonwebtoken');
-const {register, login, checkDuplicate } = require('./query');
-const {pool} = require('../../data');
-const pbkdf2 = require('pbkdf2');
+const { register, checkDuplicate, login, getLoginData } = require('./query');
+const { pool } = require('../../data');
 const crypto = require('crypto');
 const { STATUS_CODES } = require('http');
 
@@ -38,18 +37,18 @@ exports.register = async (ctx, next) => {
 exports.login = async (ctx, next) => {
     let { email, password } = ctx.request.body;
     let result = crypto.pbkdf2Sync(password, process.env.APP_KEY, 50, 100, 'sha512')
-
     let item = await login(email, result.toString('base64'));
 
     if(item == null) {
+        ctx.response.status = 400
         ctx.body = {result: "fail"};
     } else {
         let token = await generteToken({name: item.name});
 
         const query = `SELECT * FROM user WHERE
         email = ? AND password = ?`;
-        let output = await pool(query, [email, item.password]);
-        console.log(output);
+        let output = await pool(query, [email, item.password]); 
+        ctx.response.status = 201;
         ctx.body ={
             name : output[0].name,
             token: token,

@@ -8,26 +8,27 @@ exports.index = async (id) => {
     return await pool(query, [id]);
 }
 
-exports.store =  async (user_id, file_id, content) => {
-    const query = `INSERT INTO feed (user_id, file_id, content) VALUES (?, ?, ?)`;
-
-    return await pool(query, [user_id, file_id, content]);
+exports.store =  async (user_id, sub_id, title, content) => {
+    // const query = `INSERT INTO feed (user_id, title, content) VALUES (?, ?, ?)`;
+    // return await pool(query, [user_id, title, content]);
+    const query = `INSERT INTO feed (user_id, sub_id, title, content) VALUES (?, ?, ?, ?)`;
+    return await pool(query, [user_id, sub_id, title, content]);
 }
 
-exports.show =  async (id) => {
-    const query = `SELECT * FROM feed WHERE id = ?`
+exports.show =  async (sub_id) => {
+    const query = `SELECT * FROM feed WHERE sub_id = ?`
 
-    return await pool(query, [id]);
+    return await pool(query, [sub_id]);
 }
 
-exports.update =  async (file_id, content, id) => {
+exports.update =  async (title, content, id) => {
     const query = `
         UPDATE feed 
-        SET file_id = ?,
+        SET title = ?,
             content = ?
         WHERE id = ?
         `;
-    return await pool(query, [file_id, content, id]);
+    return await pool(query, [title, content, id]);
 }
 
 exports.qdelete =  async (id) => {

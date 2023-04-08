@@ -27,6 +27,11 @@ exports.login = async (email, password) => {
     return (result.length <0) ? null : result[0];
 }
 
+exports.getLoginData = async (email) => {
+    const query = `SELECT email, id, name FROM user WHERE email = ?`;
+    return await pool(query, [email]);
+}
+
 exports.checkDuplicate = async (email) => {
     const query = `SELECT * FROM user WHERE email = ?`;
     let result = await pool(query, [email]);

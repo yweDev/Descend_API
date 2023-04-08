@@ -17,3 +17,7 @@ exports.dataFromNow = (date) => {
 exports.isNewFeed = (date) => {
     
 }
+
+exports.isNewComment = (date) => {
+    
+}
